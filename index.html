@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container" id="nav container">
+                <a href="#" class="nav_logo">Janvi Choudhary</a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list grid">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class="uil uil-estate nav_icon"></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">
+                                <i class="uil uil-user nav_icon"></i>About Me
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link">
+                                <i class="uil uil-file-alt nav_icon"></i>Skills
+                            </a>
+                        </li>
+
+
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link">
+                                <i class="uil uil-message nav_icon"></i>ContactMe
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav_close" id="nav-close"></i>
+                </div>
+
+                <div class="nav_btns">
+                    <!--theme change button-->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+          <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_content grid">
+                        <div class="home_social">
+                            <a href="https://www.linkedin.com/in/janvichoudhary/" target="_blank" class="home_social-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+
+                            <a href="https://github.com/janvichoudhary08?tab=repositories" target="_blank" class="home_social-icon">
+                                <i class="uil uil-github"></i>
+                            </a>
+
+                            <a href=""  target="_blank" class="home_social-icon">
+                                <i class="uil uil-envelope"></i>
+                            </a>
+                        </div>
+                        <div class="home_img">
+                            <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home_blob-img" x='20' y='1' xlink:href="assets/img/pic1.jpg"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="home_data">
+                            <h1 class="home_title">Hi, I'm Janvi Choudhary</h1> 
+                            <h3 class="home_subtitle">Web  Developer</h3>
+                            <p class="home_description"><b>Code , Collaborate , Create</b> <br>
+                                I'm Janvi Choudhary,currently pusuing my btech in CSE From Women Institute oF Technology Dehradun , proficient in C++, Data Structures, and Algorithms. 
+                                Passionate about technology, I excel in problem-solving 
+                                and web development. With HTML, CSS, JavaScript ,Reactjs, MySQL, and MongoDB skills, I bring innovation, teamwork, and boundless learning to the table.
+                            </p>
+                             <a href="#contact" class="button button--flex">
+                                Contact Me<i class="uil uil-message button_icon" ></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home_scroll">
+                        <a href="#about" class="home_scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                            <span class="home_scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section_title">About Me</h2>
+                <span class="section_subtitle">My Introduction</span>
+                <div class="about_container container grid">
+                    <img src="assets/img/pic2.jpeg" alt="" class="about_img">
+                    <div class="about_data">
+                        <p class="about_description">
+                            I’m a final-year B.Tech (CSE) student at Women Institute of Technology, Dehradun, passionate about solving real-world problems through technology.                            The world of web development beckons me, where I've already left footprints using HTML, CSS, JavaScript. 
+                            Proficient in C++, DSA, OOPs, and skilled in web development using React.js, JavaScript, HTML, CSS, with hands-on experience in MongoDB and MySQL.                            The canvas of Python and Pygame has also witnessed my creative strokes. I am a vivacious learner, absorbing new skills with fervor.
+                            <br>I’ve built two major projects — Fashion For Her, an e-commerce platform for women, and an Employee Management System, both developed using React.js and MongoDB
+                            A quick learner and team player, I’m always eager to build, learn, and innovate.
+                        </p>
+                        
+                        <div class="about_info">
+                        <div>
+                            <span class="about_info-title"><1</span>
+                             <span class="about_info-name">Years <br> experience</span>
+                        </div>
+                        <div>
+                             <span class="about_info-name">Completed <br> Projects</span>
+                        </div>
+                        <div>
+                            <span class="about_info-title">1</span>
+                             <span class="about_info-name">Ongoing <br> Projects</span>
+                        </div>
+                       </div>
+
+                       <div class="about_buttons">
+                         <a download="" href="assets/pdf/Janvi_Resume.pdf" class="button button--flex">
+                           Download <i class="uil uil-download-alt button_icon"></i>
+                         </a>
+                         
+                       </div>
+                    </div>
+                </div>
+            </section>
+
+             <!--==================== SKILLS ====================-->
+             <section class="skills section" id="skills">
+                <h2 class="section_title">Skills</h2>
+                <span class="section_subtitle">My Technical level</span>
+
+                <div class="skills_container container grid">
+                    <div>
+                        <!-- -----SKILLS 1-->
+                        <div class="skills_content skills_open">
+                            <div class="skills_header">
+                                <i class="uil uil-brackets-curly skills_icon"></i>
+
+                                <div>
+                                    <h1 class="skills_title">Frontend Developer</h1>
+                                    
+                                </div>
+
+                                <i class="uil uil-angle-down skills_arrow"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">HTML</h3>
+                                        
+                                    </div>
+                                   
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_html"></span>
+                                    </div>
+
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">CSS</h3>
+                                       
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_css"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">JavaScript</h3>
+                                       
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_javascript"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_title">
+                                        <h3 class="skills_name">React</h3>
+                                      
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_react"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                       <!--===========skills 2 ====================-->
+             
+                <div class="skills_content skills_close">
+                <div class="skills_header">
+                    <i class="uil uil-server-network skills_icon"></i>
+
+                    <div>
+                        <h1 class="skills_title">Backend Developer</h1>
+                    </div>
+
+                    <i class="uil uil-angle-down skills_arrow"></i>
+                </div>
+
+                <div class="skills_list grid">
+                    <div class="skills_data">
+                        <div class="skills_title">
+                            <h3 class="skills_name">C++</h3>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_c"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skills_title">
+                            <h3 class="skills_name">MongoDB</h3>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_python"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skills_title">
+                            <h3 class="skills_name">Nodejs</h3>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_nodejs"></span>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="skills_data">
+                        <div class="skills_title">
+                            <h3 class="skills_name">Sql/h3>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_php"></span>
+                          </div>
+                      </div>
+
+                   </div>
+                </div>
+            </div>
+
+        <div>
+               <!--===========skills 3 ====================-->
+             
+               <div class="skills_content skills_close">
+                <div class="skills_header">
+                    <i class="uil uil-book skills_icon"></i>
+                    
+
+                    <div>
+                        <h1 class="skills_title">Programing Language</h1>
+                    </div>
+
+                    <i class="uil uil-angle-down skills_arrow"></i>
+                </div>
+
+                <div class="skills_list grid">
+                    <div class="skills_data">
+                        <div class="skills_title">
+                            <h3 class="skills_name">C++</h3>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_c"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skills_title">
+                            <h3 class="skills_name">C</h3>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_c"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skills_title">
+                            <h3 class="skills_name">python</h3>
+                        </div>
+                        <div class="skills_bar">
+                            <span class="skills_percentage skills_python"></span>
+                        </div>
+                    </div>
+
+                    
+                          
+                   </div>
+                </div>
+            </div>
+        </div>
+        </div> 
+
+        </div>
+    </section>
+        
+        
+           
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section_title">Education</h2> 
+                <span class="section_subtitle">My Personal Journey</span>
+            
+                <div class="qualification_container container">
+                    <div class="qualification_tabs">
+                        <div class="qualification_button button--flex qualification_active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qualification_icon"></i>
+                             Education
+                        </div>
+
+                    <div class="qualification_button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification_icon"></i>
+                        Projects
+                    </div>
+                </div>
+
+                <div class="qualification_sections">
+                    <!--==================== Qualification content 1 ====================-->
+                    <div class="qualification content qualification_active" data-content id="education">
+                         <!--==================== Qualification 1 ====================-->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Computer Science and  Engineering</h3>
+                                <span class="qualification_subtitle">Women Institute of Technology, Dehradun(UTU)</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt ">2021 - 2025</i>
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                           
+                        </div> 
+
+                        <!--==================== Qualification 2 ====================-->
+                        <div class="qualification_data">
+                            <div></div>
+                          
+                            
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                            
+                            <div>
+                                <h3 class="qualification_title">Intermediate</h3>
+                                <span class="qualification_subtitle">Holy Cross Sr. Sec. School</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt">2019 - 2020</i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                         <!--==================== Qualification 3 ====================-->
+                       <div class="qualification_data">
+                        <div>
+                            <h3 class="qualification_title">High School</h3>
+                            <span class="qualification_subtitle">Holy Cross Sr. Sec. School</span>
+                            <div class="qualification_calendar">
+                                <i class="uil uil-calendar-alt">2017 - 2018</i>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qualification_rounder"></span>
+                            <!---<span class="qualification_line"></span>  --->
+                        </div>
+                       
+                    </div>   
+                     </div>
+
+                      <!--==================== work content 1 ====================-->
+                    <div class="qualification content" data-content id="work">
+                        <!--==================== work 1 ====================-->
+                       <div class="qualification_data">
+                           <div>
+                               <h3 class="qualification_title">Managed Network Expert</h3>
+                               <span class="qualification_subtitle">Chegg</span>
+                               <div class="qualification_calendar">
+                                   <i class="uil uil-calendar-alt">December 2022 - present</i>
+                               </div>
+                           </div>
+
+                          
+                       </div> 
+                    </div>
+
+                  </div>
+                </div>
+            </section>
+
+           
+            <!--==================== PROJECTS ====================-->
+             <section class="project section">
+                <h2 class="section_title">Projects</h2>
+                <div class="project_bg">
+                    <div class="project_container container grid">
+                      <div class="project_data">
+                        <h2 class="project_title">FashionForHer</h2>
+                        <p class="project_description">
+                            Created a secure and visually appealing e-commerce website focused on women’s fashion using Next.js and Tailwind CSS.
+                             The application includes features like OTP-based email login/registration, product wishlist, add to cart, 
+                             order placement, and a personal order history page<br> An interactive delivery date checker was integrated,
+                              allowing users to get estimated delivery times based on their pincode. A robust "forgot password" system ensures
+                               account recovery. The backend leverages MongoDB and NodeMailer for data management and email communication.
+                        </p>
+                        <a href="https://github.com/janvichoudhary08/FashionForHer-Ecommerce"  target="_blank" class="button button--flex button--white">
+                            Let's Go
+                            <i class="uil uil-message project_icon button_icon"></i>
+                        </a>
+                      </div> 
+  
+                      <img class="project_img" src="assets/img/fashionforher.png" alt=""> 
+
+                    <!----==== project2======-->  
+                    <div class="project_data">
+                        <h2 class="project_title">FactoryManagementSystem</h2>
+                        <p class="project_description">
+                            Developed a comprehensive Factory Management System to efficiently handle employee records, attendance, and 
+                            daily production tracking. The system supports CRUD operations for employee details including name, salary, 
+                            and joining date, and allows attendance marking on a per-day basis.<br>
+                               .<br>It automates salary calculations based on production
+                             and packaging logs and generates detailed monthly reports and payslips for each employee. The project was built 
+                             using the MERN stack (React.js, Node.js, Express.js, and MongoDB) and includes features for viewing records both
+                              employee-wise and date-wise, improving overall factory workflow and transparency.
+                        </p>
+                        <a href="https://github.com/janvichoudhary08/FactoryManage-Frontend-Backend"  target="_blank" class="button button--flex button--white">
+                            Let's Go
+                            <i class="uil uil-message project_icon button_icon"></i>
+                        </a>
+                      </div> 
+  
+                      <img class="project_img" src="assets/img/FactoryManage.png" alt="" >  
+
+                    </div>
+                </div>
+             </section>
+
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section_title">Contact Me</h2>
+                <span class="section_subtitle">Get in touch</span>
+
+                <div class="contact_container container grid">
+                    <div>
+                        <div class="contact_information">
+                            <i class="uil uil-phone contact_icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Call Me</h3>
+                                <span class="contact_subtitle">8171936509</span>
+                            </div>
+                        </div>
+
+                        <div class="contact_information">
+                            <i class="uil uil-envelope contact_icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Email</h3>
+                                <span class="contact_subtitle">janvichoudharyy08@gmail.com</span>
+                            </div>
+                        </div>
+
+
+                        <div class="contact_information">
+                            <i class="uil uil-map-marker contact_icon"></i>
+
+                            <div>
+                                <h3 class="contact_title">Location</h3>
+                                <span class="contact_subtitle">Dehradun</span>
+                            </div>
+                        </div>
+                    </div>
+
+                   <form action="" class="contact form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Name</label>
+                            <input type="text" class="contact_input">
+                        </div>
+
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Email</label>
+                            <input type="email" class="contact_input">
+                        </div>
+                    </div>
+
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Project</label>
+                        <input type="text" class="contact_input">
+                    </div>
+
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Message</label>
+                       <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send Message
+                            <i class="uil uil-message button_icon"></i>
+                        </a>
+                    </div>
+                   </form> 
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+         <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Janvi Choudhary</h1>
+                    <span class="footer_subtitle">Web developer</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#contact" class="footer_link">Contact</a>
+                    </li>
+
+                    <li>
+                        <a href="#skills" class="footer_link">Skills</a>
+                    </li>
+
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="" target="_blank" class="footer_social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="footer_social">
+                      <i class="uil uil-twitter-alt"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="footer_social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+
+          <p class="footer_copy">&#169; Janvi. All right reserved</p>
+
+         </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+           <i class="uil uil-arrow-up scrollup_icon"></i>
+        </a>
+
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
